@@ -40,6 +40,8 @@ hero.classList.add("hero");
 const heroContent = document.createElement("hero-content");
 heroContent.classList.add("hero-content");
 
+renderHome(heroContent);
+
 home.addEventListener('click', ()=>{
     heroContent.innerHTML = '';
     renderHome(heroContent);
