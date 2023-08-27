@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --bg-color1: darkslategray;
+    --font-color1: wheat;
+    --bg-color2: aliceblue;
+    --font-color2: black;
+    --bg-color3: #fbf2e0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.navbar{
+    padding: 24px;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color1);
+    color: var(--font-color1);
+    font-size: 32px;
+}
+
+.options{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.options > *{
+    margin: 0px 12px;
+    padding-bottom: 3px;
+}
+
+.options>*:hover{
+    border-bottom: 2px solid var(--font-color1);
+}
+
+.hero{
+    flex: 1;
+    padding: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color3);
+}
+
+.hero-content{
+    flex: 1;
+    width: 1080px;
+    border: 2px solid white;
+    padding: 48px;
+    color: slategrey;
+    font-size: 24px;
+}
+
+.hero-content:hover{
+    outline: 2px solid white;
+}
+
+.footer{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color1);
+    color: var(--font-color1);
+    font-size: 18px;
+}
+

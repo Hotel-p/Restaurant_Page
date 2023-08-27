@@ -1,0 +1,17 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.heading{
+    color: black;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.sub-heading{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
